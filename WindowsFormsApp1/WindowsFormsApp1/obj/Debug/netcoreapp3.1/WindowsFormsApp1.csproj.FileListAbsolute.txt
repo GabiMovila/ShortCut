@@ -1,0 +1,6 @@
+C:\Users\Gabi\Desktop\v44\ShortCut_Android_v4\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Gabi\Desktop\v44\ShortCut_Android_v4\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.AssemblyInfoInputs.cache
+C:\Users\Gabi\Desktop\v44\ShortCut_Android_v4\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.AssemblyInfo.cs
+C:\Users\Gabi\Desktop\v44\ShortCut_Android_v4\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Gabi\Desktop\v44\ShortCut_Android_v4\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.Form1.resources
+C:\Users\Gabi\Desktop\v44\ShortCut_Android_v4\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\netcoreapp3.1\WindowsFormsApp1.csproj.GenerateResource.cache

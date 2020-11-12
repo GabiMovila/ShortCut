@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/linearLayout_changePass"
+>
+    <ImageView
+        android:src="@drawable/shortcutLogo"
+        android:layout_width="wrap_content"
+        android:id="@+id/shortcutLogo_changePass"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="75dp"
+        android:cropToPadding="true"
+        />
+    <TextView
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_changePass_email"
+        android:paddingLeft="38dp"
+        android:textColor="#ffffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp" 
+         />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:id="@+id/textIn_changePass_email"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="catalin@fabricadelapte.ro"
+        android:textColor="#ffffffff"
+        android:background="@layout/rounded_corners_text"
+        android:textAlignment="center"
+         />
+    <TextView
+        android:text="Recovery code provided"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_changePass_code"
+        android:paddingLeft="38dp"
+        android:textColor="#ffffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp" 
+         />
+    <EditText
+        android:inputType="numberPassword"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:id="@+id/textIn_changePass_code"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="*********"
+        android:textColor="#ffffffff"
+        android:background="@layout/rounded_corners_text"
+        android:textAlignment="center"
+         />
+    <TextView
+        android:text="New password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_changePass_newPass"
+        android:paddingLeft="38dp"
+        android:textColor="#ffffffff"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp" 
+         />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:id="@+id/textIn_changePass_newPass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:hint="*********"
+        android:textColor="#ffffffff"
+        android:background="@layout/rounded_corners_text" 
+        android:textAlignment="center"
+         />
+    <Button
+        android:text="CHANGE PASSWORD"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:id="@+id/buttonChangePass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:textColor="#000000"
+        android:background="@layout/rounded_corners_button" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:src="@drawable/cancel_button"
+        android:id="@+id/buttonCancel"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
